@@ -6,7 +6,6 @@ var ti={}
 ,attentions={};
 const googl = require('goo.gl');  
 var prefix = "-";
-const prefix = '-'
 
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
