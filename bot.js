@@ -92,7 +92,7 @@ client.on('message', message => {
         let args = message.content.split(' ').slice(1).join(' ');
     if(message.content.split(' ')[0] == prefix + 'ebc') {
         if (!args[1]) {
-    message.channel.send("$ebc <message>");
+    message.channel.send("-ebc <message>");
     return;
     }
             message.guild.members.forEach(m => {
@@ -110,6 +110,7 @@ client.on('message', message => {
             return;
         }
     });
+
 
 
 client.login(process.env.BOT_TOKEN); 
