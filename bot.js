@@ -1,10 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var table = require('table').table
-var ti={}  
-,spee={}
-,attentions={};
-const googl = require('goo.gl');  
 var prefix = "-";
 
 client.on('message', message => {
